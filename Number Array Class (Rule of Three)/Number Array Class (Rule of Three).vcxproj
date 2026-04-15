@@ -128,6 +128,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Number Array Class (Rule of Three).cpp" />
+    <ClCompile Include="Number_Array.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Number_Array.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

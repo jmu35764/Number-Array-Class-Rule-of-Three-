@@ -1,6 +1,6 @@
 
-#ifndef NUMARRAY_H
-#define NUMARRAY_H
+#ifndef NUM_ARRAY_H
+#define NUM_ARRAY_H
 
 class NumberArray
 {

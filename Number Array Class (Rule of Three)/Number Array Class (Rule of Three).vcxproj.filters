@@ -18,5 +18,13 @@
     <ClCompile Include="Number Array Class (Rule of Three).cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Number_Array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Number_Array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
