@@ -1,3 +1,4 @@
+
 #ifndef NUMARRAY_H
 #define NUMARRAY_H
 
@@ -15,6 +16,12 @@ public:
 	// are added to the object
 
 	NumberArray(int size = MAX_SIZE);
+
+	// Copy Constructor
+	NumberArray(const NumberArray&);
+
+	// Overloaded Assignment Operator
+	const NumberArray operator=(const NumberArray& rhs);
 
 	~NumberArray();
 
