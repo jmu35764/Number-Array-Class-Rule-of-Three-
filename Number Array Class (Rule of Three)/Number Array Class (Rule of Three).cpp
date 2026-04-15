@@ -174,7 +174,11 @@ int main()
     a.Print();
     cout << endl;
 
-
+    //****** ASSIGNMENT OPERATOR TEST_2 ******//
+    // Check if the "=" can copy the values of two
+    // separate arrays of different sizes.
+    // 
+    // 
     // Create Smaller Array, increments by 2
     NumberArray Small(5);
 
@@ -199,9 +203,30 @@ int main()
         l_value = l_value + 3; // Increase value by 2
     }
 
+    
+    Small.Print();  // Check the value of the small Array
+    cout << endl;
+
+    
+    Large.Print();  // Check the value of the large Array
+    cout << endl;
+
+
+    Small = Large;  // Set the small array equal to the large array
+
+    
     Small.Print();
     cout << endl;
 
     Large.Print();
     cout << endl;
+
+    //****** SELF ASSIGNMENT TEST ******//
+    // Set an object equal to itself and
+    // make sure it doesn't crash.
+
+    Large = Large;
+
+    Large.Print();
+
 }
