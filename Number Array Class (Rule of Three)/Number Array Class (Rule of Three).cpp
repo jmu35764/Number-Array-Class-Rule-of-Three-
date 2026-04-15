@@ -174,6 +174,8 @@ int main()
     a.Print();
     cout << endl;
 
+
+    // Create Smaller Array, increments by 2
     NumberArray Small(5);
 
     double s_value = 2;
@@ -185,6 +187,7 @@ int main()
         s_value = s_value + 2; // Increase value by 2
     }
 
+    // Create large array, increments by 3
     NumberArray Large(8);
 
     double l_value = 3;
