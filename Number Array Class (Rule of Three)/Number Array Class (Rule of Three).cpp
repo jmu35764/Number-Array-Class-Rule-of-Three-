@@ -229,4 +229,13 @@ int main()
 
     Large.Print();
 
+
+    //****** DESTRUCTOR AND LIFETIME TEST ******//
+    // Create a temporary object inside a block
+
+    cout << "Temp block test" << endl;
+    {
+        NumberArray.
+    }
+
 }
